@@ -1,0 +1,42 @@
+.container{
+    background-color: rgb(51, 48, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
+    width: 400px;
+}
+
+.display{
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: azure;
+    border: solid green;
+    height: 20%;
+    margin: 16px;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    margin: 0 16px 0 16px;
+    display: flex;
+    height: 12%;
+}
+
+button {
+    flex: 1;
+    width: 10%;
+    font-size: 32px;
+}
+
+.orange {
+    background: orange;
+}
+
+.selected {
+    filter: brightness(2);
+}
+
